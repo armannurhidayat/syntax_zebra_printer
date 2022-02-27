@@ -6,7 +6,11 @@
     'price': "10",
 	'license': "OPL-1",
 	'currency': "USD",
-    'description': "Zebra barcode printers integration for module stock: Lots/Serial Numbers",
+    'description': """
+        Zebra barcode printers integration for module stock: Lots/Serial Numbers
+        Tested on a zebra printer type
+        - ZD888
+    """,
     'author': "Arman Nur Hidayat",
     'website': "http://www.armannurhidayat.com",
     "images": ["static/description/logo.png"],
