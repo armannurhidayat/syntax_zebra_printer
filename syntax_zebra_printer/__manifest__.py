@@ -9,7 +9,7 @@
     'description': "Zebra barcode printers integration for module stock: Lots/Serial Numbers",
     'author': "Arman Nur Hidayat",
     'website': "http://www.armannurhidayat.com",
-    "images": ["static/description/logo.jpg"],
+    "images": ["static/description/logo.png"],
     'category': 'Stock',
     'version': '12.0.1',
     'depends': ['base','stock','barcodes'],
