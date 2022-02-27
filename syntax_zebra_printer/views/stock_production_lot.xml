@@ -1,0 +1,29 @@
+<odoo>
+	<data>
+		
+		<record id="button_print_stock_production_lot_form" model="ir.ui.view">
+			<field name="name">button.print.stock.production.lot.form</field>
+			<field name="model">stock.production.lot</field>
+			<field name="inherit_id" ref="stock.view_production_lot_form" />
+			<field name="arch" type="xml">
+				<xpath expr="//sheet" position="before">
+					<header>
+                        <button string="Print" type="object" name="action_print" class="oe_highlight" print="action_print"/>
+                    </header>
+				</xpath>
+			</field>
+		</record>
+
+		<record id="data_print_stock_production_lot_form" model="ir.ui.view">
+			<field name="name">data.print.stock.production.lot.form</field>
+			<field name="model">stock.production.lot</field>
+			<field name="inherit_id" ref="stock.view_production_lot_form" />
+			<field name="arch" type="xml">
+				<field name="ref" position="after">
+					<field name="data_print" invisible="1"/>
+				</field>
+			</field>
+		</record>
+		
+	</data>
+</odoo>
