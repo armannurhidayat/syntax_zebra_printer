@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 # ©  2021 armannurhidayat
 {
-    'name': "Zebra printers integration",
-    'summary': "Zebra printers integration",
+    'name': "Zebra Printer Integration",
+    'summary': "Zebra Printer Integration",
     'price': "10",
 	'license': "OPL-1",
 	'currency': "USD",
     'description': """
-        Zebra barcode printers integration for module stock: Lots/Serial Numbers
+        Zebra barcode printer integration for module stock: Lots/Serial Numbers
         Tested on a zebra printer type
         - ZD888
     """,
